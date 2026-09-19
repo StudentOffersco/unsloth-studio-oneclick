@@ -1,23 +1,15 @@
-# Unsloth Studio — one-click (Colab + Kaggle)
+# Unsloth Studio — one-click notebooks
 
-One cell: install + start [Unsloth Studio](https://unsloth.ai/docs/new/studio) on free Google Colab or Kaggle GPUs.
+Two simple notebooks to launch [Unsloth Studio](https://unsloth.ai/docs/new/studio) on free cloud GPUs.
 
-## Open in Colab
+| Platform | Notebook | Open |
+|---|---|---|
+| **Google Colab** | [`Unsloth_Studio_Colab.ipynb`](./Unsloth_Studio_Colab.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StudentOffersco/unsloth-studio-oneclick/blob/main/Unsloth_Studio_Colab.ipynb) |
+| **Kaggle** | [`Unsloth_Studio_Kaggle.ipynb`](./Unsloth_Studio_Kaggle.ipynb) | Import on Kaggle → GPU + Internet → Run |
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StudentOffersco/unsloth-studio-oneclick/blob/main/Unsloth_Studio_Colab_Kaggle.ipynb)
+Each notebook is **one cell**: install + start. After it runs, open the **Cloudflare URL** it prints and log in with the **admin password** shown in the output.
 
-1. Runtime → GPU (T4)
-2. Run the cell
-3. Open the Cloudflare URL it prints → chat
+## Not affiliated with Unsloth
+Helper launchers only. They clone official [`unslothai/unsloth`](https://github.com/unslothai/unsloth). Studio UI is AGPL-3.0.
 
-## Kaggle
-
-Import `Unsloth_Studio_Colab_Kaggle.ipynb` → Accelerator **GPU T4 x2** → **Internet On** → Run the cell.
-
-## Notes
-
-- Clones official [`unslothai/unsloth`](https://github.com/unslothai/unsloth). Studio UI is AGPL-3.0.
-- Free tiers have session/quota limits; start with small models (~under 22B on Colab T4).
-- Not affiliated with Unsloth; helper launcher only.
-
-Official Colab: https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb
+Official Unsloth Colab: https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb
