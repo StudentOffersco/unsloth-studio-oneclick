@@ -5,9 +5,33 @@ Two simple notebooks to launch [Unsloth Studio](https://unsloth.ai/docs/new/stud
 | Platform | Notebook | Open |
 |---|---|---|
 | **Google Colab** | [`Unsloth_Studio_Colab.ipynb`](./Unsloth_Studio_Colab.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StudentOffersco/unsloth-studio-oneclick/blob/main/Unsloth_Studio_Colab.ipynb) |
-| **Kaggle** | [`Unsloth_Studio_Kaggle.ipynb`](./Unsloth_Studio_Kaggle.ipynb) | Import this file on Kaggle → GPU + Internet → Run |
+| **Kaggle** | [`Unsloth_Studio_Kaggle.ipynb`](./Unsloth_Studio_Kaggle.ipynb) | See Kaggle steps below (no one-tap GitHub → Kaggle link) |
 
-Each notebook is **one cell**: install + start. After it runs, open the **Cloudflare URL** it prints and log in with the **admin password** shown in the output.
+Each notebook is **one cell**: install + start (~4–5 minutes first run). Then open the Cloudflare link and enter the **password** (log in as `unsloth`).
+
+## Google Colab
+1. Open the Colab badge link above
+2. Runtime → GPU (T4)
+3. Run the cell → wait ~4–5 minutes
+4. Open Unsloth Studio / Cloudflare URL → enter password → Model Hub or Chat `hi`
+
+## Kaggle (first-time setup)
+Kaggle is separate from Colab. Do this once, then share your **public Kaggle notebook URL** in posts.
+
+1. Go to [kaggle.com](https://www.kaggle.com) and sign up / sign in
+2. **Verify your phone** when asked (do this first — needed for GPU)
+3. Finish any quick account checks so GPU access unlocks
+4. **Create → New notebook**
+5. **File → Import notebook** → import [`Unsloth_Studio_Kaggle.ipynb`](./Unsloth_Studio_Kaggle.ipynb) from this repo  
+   (or open someone’s public copy → **Copy and Edit**)
+6. Settings → Accelerator **GPU T4 x2** (or P100) → **Internet: On**
+7. Run the cell → wait ~4–5 minutes
+8. Open Unsloth Studio / Cloudflare URL → enter password → Model Hub or Chat `hi`
+9. **Save Version** → make the notebook **Public** → copy `https://www.kaggle.com/code/YOU/slug` to share
+
+### Edit sources
+- Colab notebook: https://github.com/StudentOffersco/unsloth-studio-oneclick/edit/main/Unsloth_Studio_Colab.ipynb
+- Kaggle notebook: https://github.com/StudentOffersco/unsloth-studio-oneclick/edit/main/Unsloth_Studio_Kaggle.ipynb
 
 ## Not affiliated with Unsloth
 Helper launchers only. They clone official [`unslothai/unsloth`](https://github.com/unslothai/unsloth). Studio UI is AGPL-3.0.
