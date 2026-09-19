@@ -19,12 +19,12 @@ Each notebook is **one cell**: install + start (~4–5 minutes first run). Then 
 Kaggle is separate from Colab. Do this once, then share your **public Kaggle notebook URL** in posts.
 
 1. Go to [kaggle.com](https://www.kaggle.com) and sign up / sign in
-2. **Verify your phone** when asked (do this first — needed for GPU)
-3. Finish any quick account checks so GPU access unlocks
+2. **Verify your phone** (mandatory) at https://www.kaggle.com/settings — needed to enable GPU + Internet
+3. Finish any other quick account checks on that page if asked
 4. **Create → New notebook**
 5. **File → Import notebook** → import [`Unsloth_Studio_Kaggle.ipynb`](./Unsloth_Studio_Kaggle.ipynb) from this repo  
    (or open someone’s public copy → **Copy and Edit**)
-6. Settings → Accelerator **GPU T4 x2** (or P100) → **Internet: On**
+6. Top menu **Settings** → Accelerator **GPU T4 x2** (or P100) → **Internet: On**
 7. Run the cell → wait ~4–5 minutes
 8. Open Unsloth Studio / Cloudflare URL → enter password → Model Hub or Chat `hi`
 9. **Save Version** → make the notebook **Public** → copy `https://www.kaggle.com/code/YOU/slug` to share
